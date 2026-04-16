@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="container navbar">
         <Link to="/" className="brand">
           <span className="brand-mark">▣</span>
-          <span>Your Name</span>
+          <span>SMD</span>
         </Link>
 
         <nav className="nav-links" aria-label="Primary navigation">

@@ -3,12 +3,9 @@ import {
   Layout,
   Smartphone,
   Database,
-  Globe,
-  Rocket,
-  Briefcase,
   Mail,
-  Github,
-  Linkedin,
+  GitBranch,
+  Link,
 } from 'lucide-react'
 
 export const navLinks = [
@@ -19,8 +16,8 @@ export const navLinks = [
 ]
 
 export const heroData = {
-  greeting: 'Hi There! I’m Your Name',
-  titleTop: 'A Frontend Engineer.',
+  greeting: 'Hi There! I’m Saani Mustapha Deishini',
+  titleTop: 'A Full Stack & Devops Engineer.',
   titleBottom: 'I Help Startups Launch And Grow Their Products',
   subtitle:
     'Over 4 years of professional experience building accessible, responsive, and engaging web experiences with modern frontend tools.',
@@ -109,13 +106,13 @@ export const contactInfo = [
   {
     title: 'GitHub',
     value: 'github.com/yourusername',
-    icon: Github,
+    icon: GitBranch,
     href: 'https://github.com/yourusername',
   },
   {
     title: 'LinkedIn',
     value: 'linkedin.com/in/yourusername',
-    icon: Linkedin,
+    icon: Link,
     href: 'https://linkedin.com/in/yourusername',
   },
 ]
