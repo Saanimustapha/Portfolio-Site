@@ -9,8 +9,8 @@ export default function Skills() {
     <>
       <PageHero
         eyebrow="Skills"
-        title="What I Use To Build Great Interfaces"
-        description="My toolkit covers modern frontend engineering, polished UI implementation, and performance-focused user experiences."
+        title="What I Use To Build Great Applications"
+        description="My toolkit covers modern frontend and backend engineering as well as performance-focused user experiences."
       />
 
       <AnimatedSection>

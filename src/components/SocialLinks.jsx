@@ -1,8 +1,9 @@
-import { GitBranch, Link, Mail } from 'lucide-react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { Mail } from 'lucide-react'
 
 const links = [
-  { icon: GitBranch, href: 'https://github.com/yourusername', label: 'GitHub' },
-  { icon: Link, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
+  { icon: FaGithub, href: 'https://github.com/yourusername', label: 'GitHub' },
+  { icon: FaLinkedin, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
   { icon: Mail, href: 'mailto:yourname@example.com', label: 'Email' },
 ]
 

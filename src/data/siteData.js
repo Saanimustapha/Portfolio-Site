@@ -7,6 +7,7 @@ import {
   GitBranch,
   Link,
 } from 'lucide-react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export const navLinks = [
   { name: 'Skills', path: '/skills' },
@@ -18,31 +19,31 @@ export const navLinks = [
 export const heroData = {
   greeting: 'Hi There! I’m Saani Mustapha Deishini',
   titleTop: 'A Full Stack & Devops Engineer.',
-  titleBottom: 'I Help Startups Launch And Grow Their Products',
+  titleBottom: 'I Help Build Efficient And Scalable Software Solutions',
   subtitle:
-    'Over 4 years of professional experience building accessible, responsive, and engaging web experiences with modern frontend tools.',
+    'With hands-on experience building and deploying secure applications.',
 }
 
 export const skills = [
   {
     title: 'Frontend Development',
     icon: Code2,
-    items: ['React', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3'],
+    items: ['React', 'JavaScript', 'HTML5', 'CSS3'],
   },
   {
-    title: 'UI Engineering',
+    title: 'Backend Engineering',
+    icon: Code2,
+    items: ['Fast API', 'Microservices', 'Kafka', 'Redis'],
+  },
+  {
+    title: 'Devops',
     icon: Layout,
-    items: ['Responsive Design', 'Accessibility', 'Design Systems', 'Animations'],
+    items: ['Kubernetes', 'Docker', 'Nginx'],
   },
   {
-    title: 'Mobile-First',
-    icon: Smartphone,
-    items: ['Adaptive Layouts', 'Cross-Browser Testing', 'Performance Optimization'],
-  },
-  {
-    title: 'API Integration',
+    title: 'Database Management',
     icon: Database,
-    items: ['REST APIs', 'State Management', 'Async Data Handling'],
+    items: ['Postgres', 'MongoDB',],
   },
 ]
 
@@ -106,13 +107,13 @@ export const contactInfo = [
   {
     title: 'GitHub',
     value: 'github.com/yourusername',
-    icon: GitBranch,
+    icon: FaGithub,
     href: 'https://github.com/yourusername',
   },
   {
     title: 'LinkedIn',
     value: 'linkedin.com/in/yourusername',
-    icon: Link,
+    icon: FaLinkedin,
     href: 'https://linkedin.com/in/yourusername',
   },
 ]
